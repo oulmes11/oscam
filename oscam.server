@@ -9,45 +9,7 @@ caid                          = 2600,0B00,0B02,0500,0963,06AD,0940
 group                         = 1
 
 
-[reader]
-label                         = d1
-protocol                      = cccam
-device                        = rnervion.podzone.net,65100
-user                          = rnervion
-password                      = rnervion
-inactivitytimeout             = 30
-group                         = 3
-disablecrccws                 = 1
-cccversion                    = 2.0.11
-ccckeepalive                  = 1
-audisabled                    = 1
 
-[reader]
-label                         = c2
-protocol                      = cccam
-device                        = rnervion.podzone.org,65100
-user                          = rnervion
-password                      = rnervion
-inactivitytimeout             = 30
-group                         = 4
-disablecrccws                 = 1
-cccversion                    = 2.0.11
-ccckeepalive                  = 1
-audisabled                    = 1
-
-[reader]
-label                    = SkyDE
-enable                   = 1
-protocol                 = cccam
-device                   = nassimhalfa.ddns.net,13000
-user                     = 3w6gap9m
-password                 = cvpj8ko9
-disablecrccws            = 1
-inactivitytimeout        = 30
-group                    = 1
-cccversion               = 2.3.0
-ccckeepalive             = 1
-audisabled               = 1
 
 [reader]
 label                         = oulmes
@@ -68,12 +30,12 @@ ccckeepalive                  = 1
 
 
 [reader]
-label                    = SkyDE2
+label                    = 51
 enable                   = 1
 protocol                 = cccam
-device                   = linuxsat1.webhop.biz,16032
-user                     = DreamsatblwPS
-password                 = 0x6ePysZ0i
+device                   = 51.89.40.86,1003
+user                     = rcin0oz6
+password                 = igwi8io3
 disablecrccws            = 1
 inactivitytimeout        = 30
 group                    = 1
@@ -82,12 +44,12 @@ ccckeepalive             = 1
 audisabled               = 1
 
 [reader]
-label                    = SkyDE3
+label                    = demo
 enable                   = 1
 protocol                 = cccam
-device                   = linuxsat2.webhop.biz,22021
-user                     = DreamsatblwPS
-password                 = 0x6ePysZ0i
+device                   = demo.mbpot.com,20000
+user                     = ENVIO-RAPIDO3
+password                 = mbpot.com
 disablecrccws            = 1
 inactivitytimeout        = 30
 group                    = 1
@@ -96,12 +58,12 @@ ccckeepalive             = 1
 audisabled               = 1
 
 [reader]
-label                    = SkyDE4
+label                    = ru682
 enable                   = 1
 protocol                 = cccam
-device                   = linuxsat3.webhop.info,15015
-user                     = DreamsatblwPS
-password                 = 0x6ePysZ0i
+device                   = ru682.cserver.tv.info,1003
+user                     = i7ux7i0v
+password                 = 7pb4v3gw
 disablecrccws            = 1
 inactivitytimeout        = 30
 group                    = 1
@@ -110,12 +72,12 @@ ccckeepalive             = 1
 audisabled               = 1
 
 [reader]
-label                    = SkyDE5
+label                    = matek
 enable                   = 1
 protocol                 = cccam
-device                   = linuxsat4.webhop.info,18034
-user                     = DreamsatblwPS
-password                 = 0x6ePysZ0i
+device                   = matek.no-ip.org,12550
+user                     = dicica
+password                 = dicica
 disablecrccws            = 1
 inactivitytimeout        = 30
 group                    = 1

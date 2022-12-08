@@ -35,24 +35,6 @@ cccversion                    = 2.0.11
 ccckeepalive                  = 1
 audisabled                    = 1
 
-
-
-
-[reader]
-label                         = MymGcAmD
-enable                        = 0
-protocol                      = newcamd
-device                        = Host
-key                           = 0102030405060708091011121314
-user                          = User
-password                      = Passwd
-services                      = !powervu,!tandberg,!biss,!afn
-inactivitytimeout             = -1
-disableserverfilter           = 1
-connectoninit                 = 1
-group                         = 1
-audisabled                    = 1
-
 [reader]
 label                    = SkyDE
 enable                   = 1
@@ -67,7 +49,22 @@ cccversion               = 2.3.0
 ccckeepalive             = 1
 audisabled               = 1
 
-
+[reader]
+label                         = oulmes
+enable                        = 0
+protocol                      = cccam
+device                        = buy.cremtv.com,13697
+user                          = cremtv.com
+password                      = cremtv.com
+services                      = !PowerVU,!Tandberg,!Biss,!Afn
+inactivitytimeout             = -1
+reconnecttimeout              = 10
+cacheex_block_fakecws         = 1
+group                         = 4
+cccversion                    = 2.1.1
+cccmaxhops                    = 1 # dont use higher than 3 !!!
+dropbadcws                    = 1
+ccckeepalive                  = 1
 
 
 [reader]

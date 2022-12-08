@@ -1,0 +1,715 @@
+# oscam.server generated automatically by Streamboard OSCAM 1.20_svn SVN r11678
+# Read more: https://svn.streamboard.tv/oscam/trunk/Distribution/doc/txt/oscam.server.txt
+
+[reader]
+label                         = constant.cw
+protocol                      = constcw
+device                        = /home/gx/local/oscam-smod/constant.cw
+caid                          = 2600,0B00,0B02,0500,0963,06AD,0940
+group                         = 1
+
+
+[reader]
+label                         = d1
+protocol                      = cccam
+device                        = rnervion.podzone.net,65100
+user                          = rnervion
+password                      = rnervion
+inactivitytimeout             = 30
+group                         = 3
+disablecrccws                 = 1
+cccversion                    = 2.0.11
+ccckeepalive                  = 1
+audisabled                    = 1
+
+[reader]
+label                         = c2
+protocol                      = cccam
+device                        = rnervion.podzone.org,65100
+user                          = rnervion
+password                      = rnervion
+inactivitytimeout             = 30
+group                         = 4
+disablecrccws                 = 1
+cccversion                    = 2.0.11
+ccckeepalive                  = 1
+audisabled                    = 1
+
+
+
+
+[reader]
+label                         = MymGcAmD
+enable                        = 0
+protocol                      = newcamd
+device                        = Host
+key                           = 0102030405060708091011121314
+user                          = User
+password                      = Passwd
+services                      = !powervu,!tandberg,!biss,!afn
+inactivitytimeout             = -1
+disableserverfilter           = 1
+connectoninit                 = 1
+group                         = 1
+audisabled                    = 1
+
+[reader]
+label                    = SkyDE
+enable                   = 1
+protocol                 = cccam
+device                   = nassimhalfa.ddns.net,13000
+user                     = 3w6gap9m
+password                 = cvpj8ko9
+disablecrccws            = 1
+inactivitytimeout        = 30
+group                    = 1
+cccversion               = 2.3.0
+ccckeepalive             = 1
+audisabled               = 1
+
+
+
+
+[reader]
+label                    = SkyDE2
+enable                   = 1
+protocol                 = cccam
+device                   = linuxsat1.webhop.biz,16032
+user                     = DreamsatblwPS
+password                 = 0x6ePysZ0i
+disablecrccws            = 1
+inactivitytimeout        = 30
+group                    = 1
+cccversion               = 2.3.0
+ccckeepalive             = 1
+audisabled               = 1
+
+[reader]
+label                    = SkyDE3
+enable                   = 1
+protocol                 = cccam
+device                   = linuxsat2.webhop.biz,22021
+user                     = DreamsatblwPS
+password                 = 0x6ePysZ0i
+disablecrccws            = 1
+inactivitytimeout        = 30
+group                    = 1
+cccversion               = 2.3.0
+ccckeepalive             = 1
+audisabled               = 1
+
+[reader]
+label                    = SkyDE4
+enable                   = 1
+protocol                 = cccam
+device                   = linuxsat3.webhop.info,15015
+user                     = DreamsatblwPS
+password                 = 0x6ePysZ0i
+disablecrccws            = 1
+inactivitytimeout        = 30
+group                    = 1
+cccversion               = 2.3.0
+ccckeepalive             = 1
+audisabled               = 1
+
+[reader]
+label                    = SkyDE5
+enable                   = 1
+protocol                 = cccam
+device                   = linuxsat4.webhop.info,18034
+user                     = DreamsatblwPS
+password                 = 0x6ePysZ0i
+disablecrccws            = 1
+inactivitytimeout        = 30
+group                    = 1
+cccversion               = 2.3.0
+ccckeepalive             = 1
+audisabled               = 1
+
+[reader]
+label                         = emulator
+protocol                      = unknown
+device                        = https://raw.githubusercontent.com/MOHAMED19OS/SoftCam_Emu/main/Universal/SoftCam.Key
+caid                          = 0500,0604,090F,0E00,1010,1801,2600,2602,2610,4AE1
+detect                        = cd
+ident                         = 0500:000000,007400,007800,021110,023800;0604:000000;090F:000000;0E00:000000;1010:000000;1801:000000,001101,002111,007301;2600:000000;2602:000000;2610:000000;4AE1:000011,000014,0000FE
+group                         = 5
+emmcache                      = 2,1,2,1
+
+[reader]
+label                         = SmartCard
+protocol                      = internal
+device                        = /dev/sci0
+pincode                       = 0000
+caid                          = 0B00
+detect                        = cd
+group                         = 6
+
+[reader]
+label                         = 2k.nn13.us_26052_789645654678
+protocol                      = cccam
+device                        = 2k.nn13.us,26052
+user                          = 789645654678
+password                      = 789645654678
+inactivitytimeout             = 30
+group                         = 64
+cccversion                    = 2.3.2
+ccckeepalive                  = 1
+audisabled                    = 1
+
+[reader]
+label                         = free.cccam.net_22239_ZH96xyn4
+protocol                      = cccam
+device                        = free.cccam.net,22239
+user                          = ZH96xyn4
+password                      = cccam.net
+inactivitytimeout             = 30
+group                         = 64
+cccversion                    = 2.3.2
+ccckeepalive                  = 1
+audisabled                    = 1
+
+[reader]
+label                         = free.CCcamia.com_18000_hidpfk
+protocol                      = cccam
+device                        = free.CCcamia.com,18000
+user                          = hidpfk
+password                      = CCcamia.com
+inactivitytimeout             = 30
+group                         = 64
+cccversion                    = 2.3.2
+ccckeepalive                  = 1
+audisabled                    = 1
+
+[reader]
+label                         = ru799.cserver.tv_1003_i7ux7i0v
+protocol                      = cccam
+device                        = ru799.cserver.tv,1003
+user                          = i7ux7i0v
+password                      = 7pb4v3gw
+inactivitytimeout             = 30
+group                         = 64
+cccversion                    = 2.3.2
+ccckeepalive                  = 1
+audisabled                    = 1
+
+[reader]
+label                         = matek.no-ip.org_12550_dicica
+protocol                      = cccam
+device                        = matek.no-ip.org,12550
+user                          = dicica
+password                      = dicica
+inactivitytimeout             = 30
+group                         = 64
+cccversion                    = 2.3.2
+ccckeepalive                  = 1
+audisabled                    = 1
+
+[reader]
+label                         = ru724.cserver.tv_1003_i7ux7i0v
+protocol                      = cccam
+device                        = ru724.cserver.tv,1003
+user                          = i7ux7i0v
+password                      = 7pb4v3gw
+inactivitytimeout             = 30
+group                         = 64
+cccversion                    = 2.3.2
+ccckeepalive                  = 1
+audisabled                    = 1
+
+[reader]
+label                         = 51.91.6.74_1003_mhisw9nb
+protocol                      = cccam
+device                        = 51.91.6.74,1003
+user                          = mhisw9nb
+password                      = xmka1hfa
+inactivitytimeout             = 30
+group                         = 64
+cccversion                    = 2.3.2
+ccckeepalive                  = 1
+audisabled                    = 1
+
+[reader]
+label                         = lovetv.ddns.net_12001_serverbull
+protocol                      = cccam_mcs
+device                        = lovetv.ddns.net,12001
+user                          = serverbull
+password                      = elquequierasponertu
+inactivitytimeout             = 30
+group                         = 64
+cccversion                    = 2.3.2
+ccckeepalive                  = 1
+audisabled                    = 1
+
+[reader]
+label                         = uk629.cserver.tv_1003_mhisw9nb
+protocol                      = cccam
+device                        = uk629.cserver.tv,1003
+user                          = mhisw9nb
+password                      = xmka1hfa
+inactivitytimeout             = 30
+group                         = 64
+cccversion                    = 2.3.2
+ccckeepalive                  = 1
+audisabled                    = 1
+
+[reader]
+label                         = uk629.cserver.tv_1003_i7ux7i0v
+protocol                      = cccam
+device                        = uk629.cserver.tv,1003
+user                          = i7ux7i0v
+password                      = 7pb4v3gw
+inactivitytimeout             = 30
+group                         = 64
+cccversion                    = 2.3.2
+ccckeepalive                  = 1
+audisabled                    = 1
+
+[reader]
+label                         = ru943.cserver.tv_1003_i7ux7i0v
+protocol                      = cccam
+device                        = ru943.cserver.tv,1003
+user                          = i7ux7i0v
+password                      = 7pb4v3gw
+inactivitytimeout             = 30
+group                         = 64
+cccversion                    = 2.3.2
+ccckeepalive                  = 1
+audisabled                    = 1
+
+[reader]
+label                         = ru943.cserver.tv_1003_mhisw9nb
+protocol                      = cccam
+device                        = ru943.cserver.tv,1003
+user                          = mhisw9nb
+password                      = xmka1hfa
+inactivitytimeout             = 30
+group                         = 64
+cccversion                    = 2.3.2
+ccckeepalive                  = 1
+audisabled                    = 1
+
+[reader]
+label                         = iexufoh3.cserver.tv_3050_mtenmmru
+protocol                      = newcamd
+device                        = iexufoh3.cserver.tv,3050
+key                           = 0102030405060708091011121314
+user                          = mtenmmru
+password                      = i5bu2w6u
+connectoninit                 = 1
+group                         = 64
+audisabled                    = 1
+
+[reader]
+label                         = cccam.journalsat.com_17770_330555709
+protocol                      = newcamd
+device                        = cccam.journalsat.com,17770
+key                           = 0102030405060708091011121314
+user                          = 330555709
+password                      = journalsat
+connectoninit                 = 1
+group                         = 64
+audisabled                    = 1
+
+[reader]
+label                         = 193.70.66.6_700_ssss111
+protocol                      = newcamd
+device                        = 193.70.66.6,700
+key                           = 0102030405060708091011121314
+user                          = ssss111
+password                      = ssss444
+connectoninit                 = 1
+group                         = 64
+audisabled                    = 1
+
+[reader]
+label                         = 1.prsrv.biz_4016_megyesi1
+protocol                      = newcamd
+device                        = 1.prsrv.biz,4016
+key                           = 0102030405060708091011121314
+user                          = megyesi1
+password                      = 4789m2
+connectoninit                 = 1
+group                         = 64
+audisabled                    = 1
+
+[reader]
+label                         = 3.prsrv.biz_4022_megyesi1
+protocol                      = newcamd
+device                        = 3.prsrv.biz,4022
+key                           = 0102030405060708091011121314
+user                          = megyesi1
+password                      = 4789m2
+connectoninit                 = 1
+group                         = 64
+audisabled                    = 1
+
+[reader]
+label                         = aex1vipi.cserver.tv_3021_mtenmmru
+protocol                      = newcamd
+device                        = aex1vipi.cserver.tv,3021
+key                           = 0102030405060708091011121314
+user                          = mtenmmru
+password                      = i5bu2w6u
+connectoninit                 = 1
+group                         = 64
+audisabled                    = 1
+
+[reader]
+label                         = dd100.cserver.tv_3051_mtenmmru
+protocol                      = newcamd
+device                        = dd100.cserver.tv,3051
+key                           = 0102030405060708091011121314
+user                          = mtenmmru
+password                      = i5bu2w6u
+connectoninit                 = 1
+group                         = 64
+audisabled                    = 1
+
+[reader]
+label                         = 193.70.66.6_702_ssss111
+protocol                      = newcamd
+device                        = 193.70.66.6,702
+key                           = 0102030405060708091011121314
+user                          = ssss111
+password                      = ssss444
+connectoninit                 = 1
+group                         = 64
+audisabled                    = 1
+
+[reader]
+label                         = s10.torbrand.tv_721_boni60
+protocol                      = newcamd
+device                        = s10.torbrand.tv,721
+key                           = 0102030405060708091011121314
+user                          = boni60
+password                      = boni
+connectoninit                 = 1
+group                         = 64
+audisabled                    = 1
+
+[reader]
+label                         = s8.torbrand.tv_721_boni60
+protocol                      = newcamd
+device                        = s8.torbrand.tv,721
+key                           = 0102030405060708091011121314
+user                          = boni60
+password                      = boni
+connectoninit                 = 1
+group                         = 64
+audisabled                    = 1
+
+[reader]
+label                         = s8.torbrand.tv_700_boni60
+protocol                      = newcamd
+device                        = s8.torbrand.tv,700
+key                           = 0102030405060708091011121314
+user                          = boni60
+password                      = boni
+connectoninit                 = 1
+group                         = 64
+audisabled                    = 1
+
+[reader]
+label                         = s6.torbrand.tv_715_boni60
+protocol                      = newcamd
+device                        = s6.torbrand.tv,715
+key                           = 0102030405060708091011121314
+user                          = boni60
+password                      = boni
+connectoninit                 = 1
+group                         = 64
+audisabled                    = 1
+
+[reader]
+label                         = s9.torbrand.tv_718_boni60
+protocol                      = newcamd
+device                        = s9.torbrand.tv,718
+key                           = 0102030405060708091011121314
+user                          = boni60
+password                      = boni
+connectoninit                 = 1
+group                         = 64
+audisabled                    = 1
+
+[reader]
+label                         = s11.torbrand.tv_720_boni60
+protocol                      = newcamd
+device                        = s11.torbrand.tv,720
+key                           = 0102030405060708091011121314
+user                          = boni60
+password                      = boni
+connectoninit                 = 1
+group                         = 64
+audisabled                    = 1
+
+[reader]
+label                         = s1.torbrand.tv_710_boni60
+protocol                      = newcamd
+device                        = s1.torbrand.tv,710
+key                           = 0102030405060708091011121314
+user                          = boni60
+password                      = boni
+connectoninit                 = 1
+group                         = 64
+audisabled                    = 1
+
+[reader]
+label                         = s15.torbrand.tv_723_boni60
+protocol                      = newcamd
+device                        = s15.torbrand.tv,723
+key                           = 0102030405060708091011121314
+user                          = boni60
+password                      = boni
+connectoninit                 = 1
+group                         = 64
+audisabled                    = 1
+
+[reader]
+label                         = s8.torbrand.tv_717_boni60
+protocol                      = newcamd
+device                        = s8.torbrand.tv,717
+key                           = 0102030405060708091011121314
+user                          = boni60
+password                      = boni
+connectoninit                 = 1
+group                         = 64
+audisabled                    = 1
+
+[reader]
+label                         = s10.torbrand.tv_719_boni60
+protocol                      = newcamd
+device                        = s10.torbrand.tv,719
+key                           = 0102030405060708091011121314
+user                          = boni60
+password                      = boni
+connectoninit                 = 1
+group                         = 64
+audisabled                    = 1
+
+[reader]
+label                         = s5.torbrand.tv_714_boni60
+protocol                      = newcamd
+device                        = s5.torbrand.tv,714
+key                           = 0102030405060708091011121314
+user                          = boni60
+password                      = boni
+connectoninit                 = 1
+group                         = 64
+audisabled                    = 1
+
+[reader]
+label                         = s2.torbrand.tv_711_boni60
+protocol                      = newcamd
+device                        = s2.torbrand.tv,711
+key                           = 0102030405060708091011121314
+user                          = boni60
+password                      = boni
+connectoninit                 = 1
+group                         = 64
+audisabled                    = 1
+
+[reader]
+label                         = s13.torbrand.tv_722_boni60
+protocol                      = newcamd
+device                        = s13.torbrand.tv,722
+key                           = 0102030405060708091011121314
+user                          = boni60
+password                      = boni
+connectoninit                 = 1
+group                         = 64
+audisabled                    = 1
+
+[reader]
+label                         = s7.torbrand.tv_716_boni60
+protocol                      = newcamd
+device                        = s7.torbrand.tv,716
+key                           = 0102030405060708091011121314
+user                          = boni60
+password                      = boni
+connectoninit                 = 1
+group                         = 64
+audisabled                    = 1
+
+[reader]
+label                         = s14.torbrand.tv_710_zvezda0777
+protocol                      = newcamd
+device                        = s14.torbrand.tv,710
+key                           = 0102030405060708091011121314
+user                          = zvezda0777
+password                      = 7777777
+connectoninit                 = 1
+group                         = 64
+audisabled                    = 1
+
+[reader]
+label                         = s3.torbrand.tv_712_boni60
+protocol                      = newcamd
+device                        = s3.torbrand.tv,712
+key                           = 0102030405060708091011121314
+user                          = boni60
+password                      = boni
+connectoninit                 = 1
+group                         = 64
+audisabled                    = 1
+
+[reader]
+label                         = s12.torbrand.tv_721_boni60
+protocol                      = newcamd
+device                        = s12.torbrand.tv,721
+key                           = 0102030405060708091011121314
+user                          = boni60
+password                      = boni
+connectoninit                 = 1
+group                         = 64
+audisabled                    = 1
+
+[reader]
+label                         = cccam.journalsat.com_24285_398745359
+protocol                      = newcamd
+device                        = cccam.journalsat.com,24285
+key                           = 0102030405060708091011121314
+user                          = 398745359
+password                      = journalsat
+connectoninit                 = 1
+group                         = 64
+audisabled                    = 1
+
+[reader]
+label                         = 202.150.112.17_13000_user
+protocol                      = newcamd
+device                        = 202.150.112.17,13000
+key                           = 1111111111111111111111111111
+user                          = user
+password                      = user
+connectoninit                 = 1
+group                         = 64
+audisabled                    = 1
+
+[reader]
+label                         = 207.180.232.230_26601_8333
+protocol                      = newcamd
+device                        = 207.180.232.230,26601
+key                           = 0102030405060708091011121314
+user                          = 8333
+password                      = 8333
+connectoninit                 = 1
+group                         = 64
+audisabled                    = 1
+
+[reader]
+label                         = 193.70.66.7_714_Pennsylvania
+protocol                      = newcamd
+device                        = 193.70.66.7,714
+key                           = 0102030405060708091011121314
+user                          = Pennsylvania
+password                      = Pennsylvania
+connectoninit                 = 1
+group                         = 64
+audisabled                    = 1
+
+[reader]
+label                         = s15.torbrand.tv_702_zvezda0777
+protocol                      = newcamd
+device                        = s15.torbrand.tv,702
+key                           = 0102030405060708091011121314
+user                          = zvezda0777
+password                      = 7777777
+connectoninit                 = 1
+group                         = 64
+audisabled                    = 1
+
+[reader]
+label                         = 3.prsrv.biz_4007_megyesi1
+protocol                      = newcamd
+device                        = 3.prsrv.biz,4007
+key                           = 0102030405060708091011121314
+user                          = megyesi1
+password                      = 4789m2
+connectoninit                 = 1
+group                         = 64
+audisabled                    = 1
+
+[reader]
+label                         = 37.187.255.91_12002_2000
+protocol                      = newcamd
+device                        = 37.187.255.91,12002
+key                           = 0102030405060708091011121314
+user                          = 2000
+password                      = 2000
+connectoninit                 = 1
+group                         = 64
+audisabled                    = 1
+
+[reader]
+label                         = 185.117.154.28_11111_bat333
+protocol                      = newcamd
+device                        = 185.117.154.28,11111
+key                           = 0102030405060708091011121314
+user                          = bat333
+password                      = bat333
+connectoninit                 = 1
+group                         = 64
+audisabled                    = 1
+
+[reader]
+label                         = 4k.webhop.me_21000_hy#150
+protocol                      = newcamd
+device                        = 4k.webhop.me,21000
+key                           = 0102030405060708091011121314
+user                          = hy#150
+password                      = 7sat.org
+connectoninit                 = 1
+group                         = 64
+audisabled                    = 1
+
+[reader]
+label                         = 4k.webhop.me_21000_hy#120
+protocol                      = newcamd
+device                        = 4k.webhop.me,21000
+key                           = 0102030405060708091011121314
+user                          = hy#120
+password                      = 7sat.org
+connectoninit                 = 1
+group                         = 64
+audisabled                    = 1
+
+[reader]
+label                         = 4k.webhop.me_21000_hy#123
+protocol                      = newcamd
+device                        = 4k.webhop.me,21000
+key                           = 0102030405060708091011121314
+user                          = hy#123
+password                      = 7sat.org
+connectoninit                 = 1
+group                         = 64
+audisabled                    = 1
+
+[reader]
+label                         = 185.117.154.28_11111_BAT333
+protocol                      = newcamd
+device                        = 185.117.154.28,11111
+key                           = 0102030405060708091011121314
+user                          = BAT333
+password                      = BAT333
+connectoninit                 = 1
+group                         = 64
+audisabled                    = 1
+
+
+
+[reader]
+label                         = tntsat
+protocol                      = tntsat
+device                        = tntsat
+caid                          = 0500
+detect                        = cd
+ident                         = 0500:030B00,041950
+group                         = 1
+emmcache                      = 1,1,2,0
+disablecrccws                 = 1
+audisabled                    = 1
+
+
+
+
